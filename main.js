@@ -55,6 +55,9 @@ function novaFrase(){
     });
  }
  
+ function fraseIntervalo()
+ {
  // repitir generateQuote() cada 100 Milissegundos.
-setInterval(generateQuote() ,100);
+fraseIntervalo(generateQuote() ,100);
 //Nota - 100 milissegundos = 0,1 segundos
+ }
