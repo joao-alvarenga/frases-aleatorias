@@ -10,6 +10,7 @@ html {
 
 body {
     background-color: #8f7d7d;
+    min-width: 321px;
 }
 
 .container {
@@ -61,4 +62,28 @@ button[type="submit"]:hover {
     top: 12em;
     right: 3em;
     position: absolute;
+}
+
+@media (max-width: 964px) {
+    html {
+        font-size: 55%;
+    }
+   
+    .autor-container {
+        top: 16em;
+        right: 3em;
+        position: absolute;
+    }
+    }
+
+@media (max-width: 634px) {
+.wrap-frases {
+    font-size: 1.5em;
+}
+}
+
+@media (max-width:364px) {
+    html {
+        font-size: 50%;
+    }
 }

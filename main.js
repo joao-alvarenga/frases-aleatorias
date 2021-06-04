@@ -55,6 +55,6 @@ function novaFrase(){
     });
  }
  
- // repitir generateQuote() cada 1000 Milissegundos.
-setInterval(generateQuote() ,1000);
-//Nota - 1000 milissegundos = 1 segundo
+ // repitir generateQuote() cada 100 Milissegundos.
+setInterval(generateQuote() ,100);
+//Nota - 100 milissegundos = 0,1 segundos
