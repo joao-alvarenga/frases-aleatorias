@@ -12,3 +12,12 @@ var currentColor = 0;
 
 // adicionar um evento on click para o button 
 document.getElementById('btn').addEventListener('click', click);
+
+function click()
+{
+    /* checar se a cor atual é o ultimo obcjeto no array, 
+    se for colocar a cor de volta a 0 (a primeira cor no array) se não for 
+    acrescentamos 1 a cor atual. */
+    if (currentColor == colors.length-1) currentColor = 0;
+    else currentColor++; 
+}
