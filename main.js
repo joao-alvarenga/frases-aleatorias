@@ -32,3 +32,10 @@ function click()
     }
 
     
+
+/* on click carrega os elementos */
+window.onload = function()
+{
+    document.getElementById('btn').addEventListener('click', novaFrase,
+    false);
+}
