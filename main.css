@@ -26,7 +26,6 @@ body {
 }
 
 button[type="submit"] {
-    padding-bottom: 0;
     outline: none;    
     bottom: 3em;
     left: 43%; 
@@ -71,8 +70,6 @@ button[type="submit"]:hover {
    
     .autor-container {
         top: 16em;
-        right: 3em;
-        position: absolute;
     }
     }
 
@@ -80,9 +77,38 @@ button[type="submit"]:hover {
 .wrap-frases {
     font-size: 1.5em;
 }
+
+.autor-container {
+    right: 1%;
+}
+
+button[type="submit"] {
+    bottom: 6.8em;
+    left: .5em;
+    padding: .3em .3em;
+}
+}
+
+@media (max-width: 470px) {
+button[type="submit"] {
+    bottom: 1em;
+    left: 40%;
+    padding: .3em .6em;
+}
 }
 
 @media (max-width:364px) {
+    html {
+        font-size: 30%;
+    }
+
+button[type="submit"] {
+    left: 30%;
+}
+}
+
+
+@media (max-width:300px) {
     html {
         font-size: 50%;
     }
