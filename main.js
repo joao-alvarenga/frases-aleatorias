@@ -22,8 +22,8 @@ function click()
     else currentColor++; 
 
     /* agora podemos acrescentar as cores ao body e ao container */
-    document.body.style.backgroundColor = colors[currentColor];
-    document.querySelector('.container').style.backgroundColor = cor[currentColor];
+    document.body.style.backgroundColor = bodyCor[currentColor];
+    document.querySelector('.container').style.backgroundColor = containerCor[currentColor];
 
     /* quando terminar de carregar volta para a cor padrão. */
     window.onload = function() {
@@ -53,3 +53,7 @@ function novaFrase(){
     console.log(err); 
     });
  }
+ 
+ // Repeat generateQuote() every 10 seconds
+setInterval(generateQuote() ,10000);
+//Note - 10000 milliseconds = 10
