@@ -40,6 +40,7 @@ window.onload = function()
     false);
 }
 
+//usar fetch para fazer a requisiação API.
 const url = "https://api.quotable.io/random";
 function novaFrase(){
    fetch(url)
@@ -54,6 +55,6 @@ function novaFrase(){
     });
  }
  
- // Repeat generateQuote() every 10 seconds
-setInterval(generateQuote() ,10000);
-//Note - 10000 milliseconds = 10
+ // repitir generateQuote() cada 1000 Milissegundos.
+setInterval(generateQuote() ,1000);
+//Nota - 1000 milissegundos = 1 segundo
