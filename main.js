@@ -9,3 +9,6 @@ var bodyCor = [
 
 // variavel para a cor atual 
 var currentColor = 0;
+
+// adicionar um evento on click para o button 
+document.getElementById('btn').addEventListener('click', click);
