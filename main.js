@@ -25,5 +25,10 @@ function click()
     document.body.style.backgroundColor = colors[currentColor];
     document.querySelector('.container').style.backgroundColor = cor[currentColor];
 
+    /* quando terminar de carregar volta para a cor padrão. */
+    window.onload = function() {
+        document.body.style.backgroundColor = colors[currentColor];
+      }
+    }
 
-}
+    
