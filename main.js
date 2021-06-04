@@ -20,4 +20,10 @@ function click()
     acrescentamos 1 a cor atual. */
     if (currentColor == colors.length-1) currentColor = 0;
     else currentColor++; 
+
+    /* agora podemos acrescentar as cores ao body e ao container */
+    document.body.style.backgroundColor = colors[currentColor];
+    document.querySelector('.container').style.backgroundColor = cor[currentColor];
+
+
 }
