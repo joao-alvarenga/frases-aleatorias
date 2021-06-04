@@ -46,3 +46,10 @@ button[type="submit"]:hover {
     background-color: #8f7d7d;
     color: #fff;
 }
+
+.wrap {
+    padding: 25px;
+    position: relative;
+    font-size: 2em;
+    color: #fff;
+}
