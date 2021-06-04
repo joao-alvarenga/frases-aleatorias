@@ -9,7 +9,7 @@ html {
 }
 
 body {
-    background-color: rgb(123, 158, 158);
+    background-color: #8f7d7d;
 }
 
 .container {
@@ -17,15 +17,11 @@ body {
     width: 60%;
     margin: 0 auto;
     margin-top: 5em;
-    background-color: #8f7d7d;
+    background-color: rgb(123, 158, 158) ;
     text-align: center;
     align-items: center;
     justify-content: center;
     position: relative;
-}
-
-p {
-    font-size: 2em;
 }
 
 button[type="submit"] {
