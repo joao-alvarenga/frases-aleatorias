@@ -27,3 +27,17 @@ body {
 p {
     font-size: 2em;
 }
+
+button[type="submit"] {
+    padding-bottom: 0;
+    outline: none;    
+    bottom: 3em;
+    left: 43%; 
+    padding: .6em 1em;
+    border-radius: 3px;
+    border: 2px solid #555;
+    color: #222;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+}
