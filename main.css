@@ -60,3 +60,9 @@ button[type="submit"]:hover {
     font-size: 1.5em;
     color: #fff;
 }
+
+.autor-container {
+    top: 12em;
+    right: 3em;
+    position: absolute;
+}
