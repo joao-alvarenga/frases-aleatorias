@@ -47,9 +47,16 @@ button[type="submit"]:hover {
     color: #fff;
 }
 
-.wrap {
+.wrap-frases {
     padding: 25px;
     position: relative;
     font-size: 2em;
+    color: #fff;
+}
+
+.autor {
+    padding: 10px;
+    position: relative;
+    font-size: 1.5em;
     color: #fff;
 }
