@@ -41,3 +41,8 @@ button[type="submit"] {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     position: absolute;
 }
+
+button[type="submit"]:hover {
+    background-color: #8f7d7d;
+    color: #fff;
+}
