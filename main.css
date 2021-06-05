@@ -27,8 +27,6 @@ body {
 
 button[type="submit"] {
     outline: none;    
-    bottom: 3em;
-    left: 43%; 
     padding: .6em 1em;
     border-radius: 3px;
     border: 2px solid #555;
