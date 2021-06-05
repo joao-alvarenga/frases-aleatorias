@@ -8,7 +8,7 @@ var bodyCor = [
 ];
 
 // variavel para a cor atual 
-var currentColor = 0;
+var corAtual = 0;
 
 // adicionar um evento on click para o button 
 document.getElementById('btn').addEventListener('click', click);
@@ -18,16 +18,16 @@ function click()
     /* checar se a cor atual é o ultimo obcjeto no array, 
     se for colocar a cor de volta a 0 (a primeira cor no array) se não for 
     acrescentamos 1 a cor atual. */
-    if (currentColor == bodyCor.length-1) currentColor = 0;
-    else currentColor++; 
+    if (corAtual == bodyCor.length-1) corAtual = 0;
+    else corAtual++; 
 
     /* agora podemos acrescentar as cores ao body e ao container */
-    document.body.style.backgroundColor = bodyCor[currentColor];
-    document.querySelector('.container').style.backgroundColor = containerCor[currentColor];
+    document.body.style.backgroundColor = bodyCor[corAtual];
+    document.querySelector('.container').style.backgroundColor = containerCor[corAtual];
 
     /* quando terminar de carregar volta para a cor padrão. */
     window.onload = function() {
-        document.body.style.backgroundColor = colors[currentColor];
+        document.body.style.backgroundColor = cor[corAtual];
       }
     }
 
@@ -48,7 +48,7 @@ function novaFrase(){
          return data.json();
     })
     .then(function(data){    
-    document.getElementById("frase").innerHTML = data.content; document.querySelector("#autor").innerHTML = "- " + data.author;
+    document.getElementById("frase").innerHTML = " &#x22;" + data.content + "&#x22; "; document.querySelector("#autor").innerHTML = "- " + data.author;
    })
  .catch(function(err) {
     console.log(err); 
