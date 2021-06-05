@@ -48,11 +48,7 @@ function novaFrase(){
          return data.json();
     })
     .then(function(data){    
-<<<<<<< HEAD
     document.getElementById("frase").innerHTML = " &#x22;" + data.content + "&#x22; "; document.querySelector("#autor").innerHTML = "- " + data.author;
-=======
-    document.getElementById("frase").innerHTML = "&#x22; " + data.content + "&#x22; " document.querySelector("#autor").innerHTML = "- " + data.author;
->>>>>>> ef5c48cd72d1d0b83235e0e95db29fc540de7d89
    })
  .catch(function(err) {
     console.log(err); 
