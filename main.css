@@ -35,12 +35,21 @@ button[type="submit"] {
     color: #222;
     cursor: pointer;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    position: absolute;
 }
 
 button[type="submit"]:hover {
     background-color: #8f7d7d;
     color: #fff;
+}
+
+.btn-frase {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    bottom: 2.2em;
+    position: absolute;
 }
 
 .wrap-frases {
@@ -83,16 +92,12 @@ button[type="submit"]:hover {
 }
 
 button[type="submit"] {
-    bottom: 6.8em;
-    left: .5em;
     padding: .3em .3em;
 }
 }
 
 @media (max-width: 470px) {
 button[type="submit"] {
-    bottom: 1em;
-    left: 40%;
     padding: .3em .6em;
 }
 }
@@ -101,10 +106,6 @@ button[type="submit"] {
     html {
         font-size: 30%;
     }
-
-button[type="submit"] {
-    left: 30%;
-}
 }
 
 
