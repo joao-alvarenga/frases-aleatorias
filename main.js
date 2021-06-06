@@ -27,7 +27,7 @@ function click()
 
     /* quando terminar de carregar volta para a cor padrão. */
     window.onload = function() {
-        document.body.style.backgroundColor = cor[corAtual];
+        document.body.style.backgroundColor = bodyCor[corAtual];
       }
     }
 
